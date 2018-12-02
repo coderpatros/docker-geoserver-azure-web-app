@@ -4,6 +4,8 @@ WORKDIR /tmp
 
 ARG DEBIAN_FRONTEND=noninteractive
 
+ENV GEOSERVER_DATA_DIR /home/geoserver-data
+
 # sshd_config from https://raw.githubusercontent.com/Azure-App-Service/node/master/8.2.1/sshd_config
 COPY sshd_config /etc/ssh/sshd_config
 COPY startup-geoserver-azure-web-app.sh /startup-geoserver-azure-web-app.sh
