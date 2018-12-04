@@ -1,4 +1,4 @@
-FROM patros1/geoserver-base:latest
+FROM patroscoder/geoserver-base:latest
 
 WORKDIR /tmp
 
