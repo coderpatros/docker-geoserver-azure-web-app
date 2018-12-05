@@ -4,7 +4,7 @@ Although you can use this to try out GeoServer this isn't really geared up for p
 
 There is no data persistance. Think of this as a base image for Linux Azure Web Apps.
 
-Available from Docker Hub as `patros1/geoserver-azure-web-app`
+Available from Docker Hub as `patroscoder/geoserver-azure-web-app`
 
 `/home/geoserver-data` is used as the GeoServer data directory.
 
