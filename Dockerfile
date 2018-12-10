@@ -1,4 +1,5 @@
-FROM patroscoder/geoserver-base:latest
+ARG GEOSERVER_BASE_TAG=latest
+FROM coderpatros/geoserver-base:$GEOSERVER_BASE_TAG
 
 WORKDIR /tmp
 
