@@ -4,6 +4,7 @@ FROM coderpatros/geoserver-base:$GEOSERVER_BASE_TAG
 WORKDIR /tmp
 
 ENV GEOSERVER_DATA_DIR /home/geoserver-data
+ENV GEOWEBCACHE_CACHE_DIR /home/geoserver-gwc
 
 COPY startup-geoserver-azure-web-app.sh /startup-geoserver-azure-web-app.sh
 # sshd_config from https://raw.githubusercontent.com/Azure-App-Service/node/master/8.2.1/sshd_config
