@@ -12,7 +12,11 @@ I currently maintain images for the current stable and maintenance releases of
 GeoServer. Although there can be a slight delay between GeoServer releases and
 new point releases of this image.
 
-# Tags
+# Base Image & Tags
+
+This image is based on my other image `patroscoder/geoserver-base`. Which in
+turn uses `openjdk:8-jre-alpine` as a base image to minimise image size and
+risk of vulnerable packages.
 
 I create latest tags for each minor version. i.e. `2.15-latest`.
 
