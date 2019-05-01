@@ -16,7 +16,7 @@ new point releases of this image.
 
 I create latest tags for each minor version. i.e. `2.15-latest`.
 
-I rebuild the images every week to ensure I pull in any updates to the base
+I rebuild the images regularly to ensure I pull in any updates to the base
 image. So I recommend you use one of these tags to ensure you get the latest
 security updates.
 
