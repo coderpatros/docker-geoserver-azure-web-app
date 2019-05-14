@@ -1,3 +1,6 @@
+[![Build status](https://dev.azure.com/patros/OpenSource/_apis/build/status/docker-geoserver-azure-web-app)](https://dev.azure.com/patros/OpenSource/_build/latest?definitionId=20)
+![Docker Pulls](https://img.shields.io/docker/pulls/coderpatros/geoserver-azure-web-app.svg)
+
 # GeoServer Azure Web App Docker Container
 
 Available from Docker Hub as `patroscoder/geoserver-azure-web-app`
