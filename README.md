@@ -28,3 +28,9 @@ image. So I recommend you use one of these tags to ensure you get the latest
 security updates.
 
 But keep in mind, I drop support for minor versions when GeoServer does.
+
+# Microsoft Core Fonts
+
+Please note that this docker image contains the Microsoft Core Fonts.
+
+[Microsoft Core Fonts EULA](http://corefonts.sourceforge.net/eula.htm)
